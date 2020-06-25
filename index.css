@@ -39,8 +39,6 @@
     justify-content: center;
 }
 
-
-}
 .home-page-circle-1 {
     position: absolute;
     width: 25vw;
@@ -51,6 +49,7 @@
     left: 5vw;
     z-index: -1;
 }
+
 .home-page-circle-2 {
     position: absolute;
     width: 25vw;
@@ -61,6 +60,7 @@
     left: 30vw;
     z-index: -1;
 }
+
 .home-page-circle-3 {
     position: absolute;
     overflow: hidden;
@@ -70,6 +70,7 @@
     right: 0;
     z-index: -1;
 }
+
 .home-page-circle-3::before {
     content: '';
     transform: translate(40%, 40%);
